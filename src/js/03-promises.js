@@ -4,6 +4,9 @@ const formPromise = document.querySelector('.form');
 
 formPromise.addEventListener('submit', evt => {
   evt.preventDefault();
+  // let delayValue = evt.currentTarget.delay.value;
+  // let stepValue = evt.currentTarget.step.value;
+  // let amountValue = evt.currentTarget.amount.value;
 
   for (let i = 0; i < evt.currentTarget.amount.value; i++) {
     let position = i + 1;
