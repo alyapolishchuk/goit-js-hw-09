@@ -10,10 +10,6 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-
-  /* background-image: url(https://img1.akspic.ru/previews/4/0/0/5/5/155004/155004-minimalizm-ekoregion-fioletovyj-art-purpurnyj_cvet-x750.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; */
 }
 
 img {
@@ -44,13 +40,3 @@ img {
   font-size: 100px;
   color: teal;
 }
-
-/* button {
-  width: 60px;
-  border: transparent;
-  border-radius: 10px;
-  color: teal;
-  background-color: rgba(193, 77, 193, 0.583);
-  font-size: 18px;
-
-} */
