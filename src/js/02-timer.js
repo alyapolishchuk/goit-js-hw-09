@@ -21,7 +21,7 @@ const day = document.querySelector('[data-days]');
 const hour = document.querySelector('[data-hours]');
 const minute = document.querySelector('[data-minutes]');
 const second = document.querySelector('[data-seconds]');
-let interval = 0;
+// let interval = 0;
 btnStart.disabled = true;
 
 Notiflix.Notify.init({
@@ -43,8 +43,10 @@ flatpickr('#datetime-picker', {
       btnStart.disabled = true;
     } else {
       btnStart.disabled = false;
+      inputDate.disabled = true;
     }
-  },
+    // inputDate.disabled = false;
+  }
 });
 
 btnStart.addEventListener('click', onClickStart);
